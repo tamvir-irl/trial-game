@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.game-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background: #222;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background: gray;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #555;
+  cursor: not-allowed;
+}
